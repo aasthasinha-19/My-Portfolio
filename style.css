@@ -152,11 +152,7 @@ margin-top:45px ;
 .fa-envelope{
     color:#10B981;
 }
-.fa-envelope:hover{
-    text-decoration: none;
-    color:#10B981;
-     opacity: 0.4;
-}
+
 .mail{
     display:flex;
     justify-content: left;
@@ -236,6 +232,9 @@ margin-top:45px ;
     .section p{
         font-size:18px;
     }
+    .footer{
+        max-width:100%;
+    
 }
 @media screen and (max-width:992px){
     .mail{
@@ -248,9 +247,14 @@ margin-top:45px ;
         position:relative;
         bottom:35px;
     }
-    
-    .design{
-        position:relative;
-        bottom:10px;
+    .footer{
+        
+    max-width:100%;
+     }
+   .footer .design{ 
+        width:100%;  
+        margin-top:20px;
     }
+
 }
+

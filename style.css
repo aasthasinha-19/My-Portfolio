@@ -1,0 +1,243 @@
+body{
+    background-color:lightgrey;
+
+}
+.navbar { 
+    background-color:#10B981;
+    color:black;
+    padding:1rem;
+    border-bottom-left-radius:20px ; 
+}
+
+.navbar-brand {
+    color:black;
+    font-size:30px;
+    font-weight: bolder;
+}
+
+ .nav-link {
+     color:black;
+     font-size:20px;
+    font-weight:bold ;
+}
+.nav-link:hover{
+    background-color: black;
+    color:#10B981;
+    border-radius:50px;
+}
+.hero {
+    padding: 2rem;
+    padding-top:5rem;
+
+}
+
+.hero .hero-heading {
+    text-align:center;
+    padding-top: 1rem;
+    color:black;
+   
+}
+
+.hero .hero-heading .heading-inverted {
+    color:#10B981;
+}
+img{
+    width:400px;
+    height:250px;
+    display:block;
+    margin:auto;
+}
+.section {
+padding: 2rem;
+}
+
+.section button{
+    text-align: center;
+    background-color:black ;
+    color:#10B981;
+    border-radius: 20px;
+    position:relative;
+    top:10px;
+    display: block;
+    margin:auto;
+
+} 
+.section p{
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+    text-align:center;
+    position:relative;
+    top:30px;
+}
+.container{
+    box-shadow:10px 10px 8px rgb(83, 80, 80)  ;
+    background-color:#10B981 ;
+    border-radius:20px ;
+}
+.container-center{
+    height:300px;
+}
+.section .btn{
+    position:relative;
+    top:45px;
+}
+.section .btn .pro{
+    color:#10B981;
+}
+.section .btn .blog{
+    color:#10B981;
+}
+
+.footer {
+   background-color:black; 
+   color:#10B981;
+   height:200px;
+   border-top-right-radius:30px;
+
+}
+
+.footer .footer-header {
+    color:#10B981;
+    text-align:center;
+    font-weight: bold;
+    font-size:30px;
+}
+.icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+letter-spacing: 50px;
+margin-top:45px ;
+
+}
+.fa-github{
+    color:#10B981;
+
+}
+.fa-linkedin{
+    
+    color:#10B981;
+}
+.fa-instagram{
+    color:#10B981;
+}
+.design{
+    text-align: right;
+    margin-top:20px;
+    margin-right:20px ;
+}
+.fa-github:hover{
+    text-decoration: none;
+    color:#10B981;
+    opacity:0.4;
+}
+.fa-linkedin:hover{
+    text-decoration: none;
+    color:#10B981;
+    opacity: 0.4;
+}
+.fa-instagram:hover{
+    text-decoration: none;
+    color:#10B981;
+    opacity: 0.4;
+}
+.section .btn:hover{
+    color:#10B981;
+    box-shadow: 10px 10px 8px rgb(83, 80, 80) ;
+    text-decoration: underline;
+    font-weight:bold;
+}
+.fa-envelope{
+    color:#10B981;
+}
+.fa-envelope:hover{
+    text-decoration: none;
+    color:#10B981;
+     opacity: 0.4;
+}
+.mail{
+    display:flex;
+    justify-content: left;
+}
+.mail h3{ 
+    letter-spacing: 0px;
+    
+
+}
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+}
+
+.link-primary {
+    background-color:black;
+    border-radius: 0.5rem;
+    color:#10B981;
+    text-align:center;
+    
+
+}
+.link-primary:hover{
+    color:#10B981;
+    box-shadow: 10px 10px 8px rgb(83, 80, 80) ;
+    font-weight:bold;
+    text-decoration:none ;
+}
+.procont h1{
+    text-align:center;
+}
+.procont p{
+    text-align:center;
+    margin-top:50px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.procont .btn{
+    display: flex;
+    justify-content: left;
+    margin-top:55px;
+    margin-left:50px;
+}
+.spesec{
+    padding:50px 15px 50px 15px;
+}
+.mx-auto{
+    background-color: black;
+    color:#10B981;
+    border-radius:20px;
+    box-shadow:10px 10px 8px #10B981;
+    height:250px;
+    text-align:center;
+    padding:2rem;
+    margin-top:40px ;
+    
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 700px;
+    }  
+    .mx-auto{
+        max-width:600px;
+    } 
+}
+@media screen and (max-width:768px){
+    .mail h3{
+        font-size:20px;
+    }
+    .mail{
+        display:flex;
+        justify-content: center;
+    }
+    .section p{
+        font-size:18px;
+    }
+}
+@media screen and (max-width:992px){
+    .mail{
+        display: flex;
+        justify-content:center;
+    }
+}

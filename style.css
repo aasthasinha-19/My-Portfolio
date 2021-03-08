@@ -245,12 +245,8 @@ margin-top:45px ;
 @media only screen and (max-width:600px){
     .procont .btn{
         position:relative;
-        margin-bottom:30px;
+        margin-top:20px;
     
 }
-.mail{
-    display:flex;
-    justify-content: center;
-    
-}
+
 }

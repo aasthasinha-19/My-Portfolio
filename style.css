@@ -94,7 +94,10 @@ padding: 2rem;
    color:#10B981;
    height:200px;
    border-top-right-radius:30px;
-
+    padding:0.5rem 1rem;
+}
+footer{
+    display:block;
 }
 
 .footer .footer-header {

@@ -126,6 +126,7 @@ margin-top:45px ;
     text-align: right;
     margin-top:20px;
     margin-right:20px ;
+
 }
 .fa-github:hover{
     text-decoration: none;
@@ -241,8 +242,12 @@ margin-top:45px ;
         justify-content:center;
     }
 }
-@media screen and (max-width:480px){
-    .section .btn{
-        bottom:30px;
+@media only screen and (max-width:600px){
+    .procont .btn{
+        margin-top:30px;
+
+    }
+    .design{
+        margin-top:15px;
     }
 }

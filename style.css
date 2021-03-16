@@ -222,6 +222,10 @@ margin-top:45px ;
     .mx-auto{
         max-width:600px;
     } 
+    .blogcont p{
+        font-size: 18px;
+    }
+    
 }
 @media screen and (max-width:768px){
     .mail h3{
@@ -236,6 +240,33 @@ margin-top:45px ;
     }
     
 }
+.blogcont{
+    background-color: black;
+    color:#10B981;
+    text-align: center;
+    height: 250px;
+    width:700px;
+    border-radius: 20px;
+}
+.blogcont p{
+    font-size:20px;
+}
+.blogcont button{
+    width:100px;
+    height: 40px;
+    background-color:#10B981;
+    color:black;
+    font-weight: bold;
+    display:flex;
+    justify-content: left;
+    position:relative;
+    left:60px;
+    top:20px;
+}
+.blogcont a{
+    color:black;
+}
+
 @media screen and (max-width:992px){
   .section p  {
       font-size:16px ;
@@ -256,6 +287,7 @@ margin-top:45px ;
            text-align:center;
        } 
 }
+
 
 
 

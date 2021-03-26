@@ -113,6 +113,13 @@ letter-spacing: 50px;
 margin-top:45px ;
 
 }
+.iconsconnect{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+letter-spacing: 30px;
+margin-top:45px ;
+}
 .fa-github{
     color:#10B981;
 

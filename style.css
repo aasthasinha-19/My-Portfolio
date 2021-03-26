@@ -124,11 +124,19 @@ margin-top:45px ;
 .fa-instagram{
     color:#10B981;
 }
+.fa-medium{
+    color:#10B981;
+}
 .design{
     text-align: right;
     margin-top:20px;
     margin-right:20px ;
 
+}
+.fa-medium:hover{
+    text-decoration: none;
+    color:#10B981;
+    opacity:0.4;
 }
 .fa-github:hover{
     text-decoration: none;
